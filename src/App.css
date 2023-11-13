@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -35,4 +36,75 @@
   to {
     transform: rotate(360deg);
   }
+}
+.main-page-style
+{
+  display:flex;
+
+}
+.chat-app
+{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #181b21;
+  height:100vh;
+  width: 50vw;
+}
+.chat-app-h1{
+  color:white;
+  text-align: center;
+}
+.chat-window{
+  width: 49vw;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom:5vh;
+  text-align:left;
+}
+.message-spent{
+  background-color: #dce285;
+  margin: 1vh;
+  border-radius: 5px;
+  font-size:20px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  flex-flow: flex-start;
+  width:50%;
+}
+.message-accept{
+  background-color: #b5b6ab;
+  margin-left: 15vw;
+  margin-top:1vh;
+  margin-bottom:1vh;
+  border-radius: 5px;
+  font-size:20px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  width: 50%;
+}
+.input-box{
+  background-color: #181b21;
+}
+.input-box-input{
+  width:25vw;
+  height:4vh;
+  border-radius:10px;
+  margin-bottom:2vw;
+}
+.input-box-button{
+  background-color: rgb(0, 14, 4);
+  border-radius: 10px;
+  cursor:pointer;
+  color:white;
+  border:solid 2px #ffffff;
+  height:5vh;
+  width:7vw;
+}
+.row-style{
+  display:flex;
+  flex-wrap:wrap;
 }
